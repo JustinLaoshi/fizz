@@ -19,9 +19,9 @@ fizz = Fizz_Rnd_List(n)
 for i in range(n):
 	x = np.random.uniform(0.0, 1.0)
 	y, m, mean, std_dev = fizz.get_stats(x)
-	#print("ITERATION:", i)
-	#print("the list:", fizz.lst)
-	print("inputed x:", x)
+	print("ITERATION:", i)
+	#print("the list:", fizz.lst)  #extra prints for more info
+	#print("inputed x:", x)
 	print("y =", y)
 	print("m =", m)
 	print("mean =", mean)
